@@ -36,6 +36,22 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "Scalar.AspNetCore/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Scalar.AspNetCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -75,27 +91,45 @@
         "microsoft.openapi.2.13.0.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "Scalar.AspNetCore/3.0.2": {
+      "sha512": "KRhMircgczP/Pf0irR3Z9vs6psmaq8fxWXFCZLFr8RUe76lABeks4l31FGf84SXvbaGcE+kNFsA4AjFekY3aWA==",
+      "type": "package",
+      "path": "scalar.aspnetcore/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/net10.0/Scalar.AspNetCore.dll",
+        "lib/net10.0/Scalar.AspNetCore.xml",
+        "lib/net11.0/Scalar.AspNetCore.dll",
+        "lib/net11.0/Scalar.AspNetCore.xml",
+        "scalar.aspnetcore.3.0.2.nupkg.sha512",
+        "scalar.aspnetcore.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "Microsoft.AspNetCore.OpenApi >= 10.0.15"
+      "Microsoft.AspNetCore.OpenApi >= 10.0.15",
+      "Scalar.AspNetCore >= 3.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jahon\\.nuget\\packages\\": {}
+    "/Users/diana/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jahon\\Documents\\study\\mAIN2_1\\VVSA\\cv2\\VVSA-backend\\VVSA-backend.csproj",
+      "projectUniqueName": "/Users/diana/matfyz/VVSA-backend/VVSA-backend.csproj",
       "projectName": "VVSA-backend",
-      "projectPath": "C:\\Users\\jahon\\Documents\\study\\mAIN2_1\\VVSA\\cv2\\VVSA-backend\\VVSA-backend.csproj",
-      "packagesPath": "C:\\Users\\jahon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jahon\\Documents\\study\\mAIN2_1\\VVSA\\cv2\\VVSA-backend\\obj\\",
+      "projectPath": "/Users/diana/matfyz/VVSA-backend/VVSA-backend.csproj",
+      "packagesPath": "/Users/diana/.nuget/packages/",
+      "outputPath": "/Users/diana/matfyz/VVSA-backend/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jahon\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/diana/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -130,6 +164,10 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.15, )"
+          },
+          "Scalar.AspNetCore": {
+            "target": "Package",
+            "version": "[3.0.2, )"
           }
         },
         "imports": [
@@ -151,7 +189,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.404/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.404/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
