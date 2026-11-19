@@ -4,5 +4,5 @@ namespace VVSA_backend.Repository;
 public interface ITransactionRepository
 {
     List<Transaction> GetAllTransactions();
-    int getTransactionById(int id);
+    Transaction getTransactionById(int id);
 }
