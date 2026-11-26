@@ -1,5 +1,5 @@
-using VVSA_backend.Model;
 namespace VVSA_backend.Repository;
+using VVSA_backend.DatabaseModel;
 
 public interface ITransactionRepository
 {
