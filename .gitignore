@@ -1,0 +1,10 @@
+# .NET generated files
+bin/
+obj/
+
+# macOS
+.DS_Store
+
+# IDE
+.vs/
+.idea/
