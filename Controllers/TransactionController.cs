@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using VVSA_backend.Service;
-using VVSA_backend.Model;
+using VVSA_backend.DatabaseModel;
 
 namespace VVSA_backend.Controllers;
 
