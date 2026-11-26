@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using VVSA_backend.Service;
-using VVSA_backend.DatabaseModel;
+using VVSA_backend.ViewModel;
 
 namespace VVSA_backend.Controllers;
 
@@ -16,13 +16,13 @@ public class TransactionController(ITransactionService transactionService) : Con
     }
 
     [HttpGet("all", Name = "GetAllTransactions")]
-    public List<Transaction> GetAll()
+    public List<TransactionViewModel> GetAll()
     {
         return transactionService.GetAllTransactions();
     }
 
     [HttpGet("{id}", Name = "GetTransactionById")]
-    public Transaction Get(int id)
+    public TransactionViewModel Get(int id)
     {
         return transactionService.GetTransactionById(id);
     }
