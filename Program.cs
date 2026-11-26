@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
-
+builder.Services.AddDbContext<whiyes5oContext> ();
 var app = builder.Build();
 app.MapControllers();
 app.Run();
