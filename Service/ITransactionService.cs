@@ -1,8 +1,8 @@
-using VVSA_backend.Model;
+using VVSA_backend.ViewModel;
 namespace VVSA_backend.Service;
 
 public interface ITransactionService
 {
-    List<Transaction> GetAllTransactions();
-    Transaction GetTransactionById(int id);
+    List<TransactionViewModel> GetAllTransactions();
+    TransactionViewModel GetTransactionById(int id);
 }
