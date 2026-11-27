@@ -1,4 +1,3 @@
-using Scalar.AspNetCore;
 using VVSA_backend.Service;
 using VVSA_backend.Repository;
 using VVSA_backend.DatabaseModel;

@@ -1,6 +1,6 @@
 @VVSA_backend_HostAddress = http://localhost:5205
 
-GET {{VVSA_backend_HostAddress}}/weatherforecast/
+GET {{VVSA_backend_HostAddress}}//api/transaction/all
 Accept: application/json
 
 ###
