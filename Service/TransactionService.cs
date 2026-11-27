@@ -35,7 +35,7 @@ public class TransactionService(ITransactionRepository transactionRepository) : 
             return null;
 
         return new TransactionViewModel
-        {
+            {
                 TransactionId = transaction.Id,
                 FullName = transaction.User.Name,
                 TransactionType = (TransactionType)transaction.TransactionType.Id,
@@ -43,7 +43,7 @@ public class TransactionService(ITransactionRepository transactionRepository) : 
                 BankCode = transaction.BankCode,
                 IssueDate = transaction.IssueDate,
                 Amount = transaction.Amount
-        };
+            };
     }
 
 }

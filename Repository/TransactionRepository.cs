@@ -22,6 +22,5 @@ public class TransactionRepository(Whiyes5oContext context) : ITransactionReposi
             .FirstOrDefault(p => p.Id == id);
 
         return result;
-
     }
 }
